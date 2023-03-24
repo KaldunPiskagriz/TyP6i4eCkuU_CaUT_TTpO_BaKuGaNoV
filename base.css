@@ -1,0 +1,128 @@
+html{
+    font-family: font;
+}
+body{
+    margin: 0px;
+    background-image: url("mnogoBakuganov1.png");
+    background-size: cover;
+    background-position: center;
+}
+div#topDiv img{
+    height: 7rem;
+    width: auto;
+}
+div#topDivText p{
+    color: red;
+    margin: 0px;
+    text-align: center;
+}
+.innerBigText{
+    color: red;
+    margin: 0px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.innerText{
+    color: red;
+    margin: 0px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+div#topDivText{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+div#topDiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #757575;
+    border-bottom: solid 5px red;
+}
+img#lutiLevo{
+    transform: scaleX(-1);
+}
+.textDoShadow{
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+.boxDoShadow{
+    box-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    margin: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.box0{
+    grid-column: 1 / 3;
+}
+.boxLeft{
+    grid-column-start: 1;
+}
+.boxRight{
+    grid-column-start: 2;
+}
+.wrapper p{
+    margin: 0px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.box {
+    background-color: #757575;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid 3px red;
+    margin-bottom: auto;
+}
+.boxInner{
+    overflow: hidden;
+}
+.boxBottom{
+    margin-left: auto;
+    margin-right: auto;
+}
+.boxImg{
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img#buyNow{
+    resize: both;
+    width: 50rem;
+}
+div#bottomDiv{
+    display: flex;
+    background-image: url("knopka.png");
+    background-size: contain;  
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+}
+
+a:link {
+    color: orange;
+}
+a:visited {
+    color: darkgoldenrod;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+
+@font-face {
+    font-family: "font";
+    src: url(MontserratAlternates-Regular.ttf);
+}
